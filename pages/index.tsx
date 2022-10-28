@@ -15,7 +15,7 @@ export default function Home({}: NextPage) {
 
 			{/* Hero */}
 			<section id='hero'>
-			<Hero />
+				<Hero />
 			</section>
 
 			{/* About */}
