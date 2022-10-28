@@ -4,29 +4,30 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 
 export default function Home({}: NextPage) {
-  return (
-    <div>
-      <Head>
-        <title>Leif Westerlind&apos;s Dynamic Portfolio</title>
-      </Head>
+	return (
+		<div>
+			<Head>
+				<title>Leif Westerlind&apos;s Dynamic Portfolio</title>
+				</Head>
 
-      {/* Header */}
-      <Header />
+			{/* Header */}
+			<Header />
 
-      {/* Hero */}
-      <section id='hero'>
-        <Hero />
-      </section>
-      {/* About */}
+			{/* Hero */}
+			<section id='hero'>
+			<Hero />
+			</section>
 
-      {/* Experience */}
+			{/* About */}
 
-      {/* Skills */}
+			{/* Experience */}
 
-      {/* Projects */}
+			{/* Skills */}
 
-      {/* Contact */}
+			{/* Projects */}
 
-    </div>
-  );
+			{/* Contact */}
+
+		</div>
+	);
 };
