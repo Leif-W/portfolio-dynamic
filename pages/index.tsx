@@ -5,7 +5,13 @@ import Hero from '../components/Hero';
 
 export default function Home({}: NextPage) {
 	return (
-		<div>
+		<div
+			className='
+				bg-[#171717]
+				h-screen
+				text-[#0f0]
+			'
+		>
 			<Head>
 				<title>Leif Westerlind&apos;s Dynamic Portfolio</title>
 				</Head>
