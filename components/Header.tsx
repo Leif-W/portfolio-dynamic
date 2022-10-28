@@ -5,24 +5,28 @@ type Props = {};
 
 export default function Header({}: Props) {
 	return (
-		<header className='
-			flex
-			items-start
-			justify-between
-			max-w-7xl
-			mx-auto
-			p-5
-			sticky
-			top-0
-			xl:items-center
-			z-20
-		'>
-			{/* Social icons */}
-			<div className='
+		<header
+			className='
 				flex
-				flex-row
-				items-center
-			'>
+				items-start
+				justify-between
+				max-w-7xl
+				mx-auto
+				p-5
+				sticky
+				top-0
+				xl:items-center
+				z-20
+			'
+		>
+			{/* Social icons */}
+			<div
+				className='
+					flex
+					flex-row
+					items-center
+				'
+			>
 				<SocialIcon
 					bgColor='transparent'
 					fgColor='grey'
@@ -41,26 +45,30 @@ export default function Header({}: Props) {
 			</div>
 
 			{/* Mail */}
-			<div className='
-				cursor-pointer
-				flex
-				flex-row
-				items-center
-				text-gray-300
-			'>
+			<div
+				className='
+					cursor-pointer
+					flex
+					flex-row
+					items-center
+					text-gray-300
+				'
+			>
 				<SocialIcon
 					bgColor='transparent'
 					className='cursor-pointer'
 					fgColor='grey'
 					network='email'
 				/>
-				<p className='
-					uppercase
-					hidden
-					md:inline-flex
-					text-sm
-					text-gray-400
-				'>Contact</p>
+				<p
+					className='
+						uppercase
+						hidden
+						md:inline-flex
+						text-sm
+						text-gray-400
+					'
+				>Contact</p>
 			</div>
 		</header>
 	);
