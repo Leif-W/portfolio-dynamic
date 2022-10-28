@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
@@ -30,6 +31,23 @@ export default function Hero({ }: Props) {
 			'
 		>
 			<BackgroundCircles />
+			<div
+				className='
+					h-96
+					relative
+					w-96
+				'
+			>
+				<Image
+					alt='portrait'
+					fill
+					priority
+					style={{
+						objectFit: 'contain',
+					}}
+					src='/Warp9pnt9.png'
+				/>
+			</div>
 			<h1>
 				<span>
 					{text}
