@@ -33,18 +33,20 @@ export default function Hero({ }: Props) {
 			<BackgroundCircles />
 			<div
 				className='
-					h-96
+					h-32
+					mx-auto
 					relative
-					w-96
+					w-32
 				'
 			>
 				<Image
 					alt='portrait'
+					className='
+						object-cover
+						rounded-full
+					'
 					fill
 					priority
-					style={{
-						objectFit: 'contain',
-					}}
 					src='/Warp9pnt9.png'
 				/>
 			</div>
