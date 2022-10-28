@@ -1,6 +1,5 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
-import { motion } from 'framer-motion';
 
 type Props = {};
 
@@ -19,13 +18,11 @@ export default function Header({}: Props) {
 			z-20
 		'>
 			{/* Social icons */}
-			<div
-				className='
-					flex
-					flex-row
-					items-center
-				'
-			>
+			<div className='
+				flex
+				flex-row
+				items-center
+			'>
 				<SocialIcon
 					bgColor='transparent'
 					fgColor='grey'
@@ -44,30 +41,26 @@ export default function Header({}: Props) {
 			</div>
 
 			{/* Mail */}
-			<div
-				className='
-					cursor-pointer
-					flex
-					flex-row
-					items-center
-					text-gray-300
-				'
-			>
+			<div className='
+				cursor-pointer
+				flex
+				flex-row
+				items-center
+				text-gray-300
+			'>
 				<SocialIcon
 					bgColor='transparent'
 					className='cursor-pointer'
 					fgColor='grey'
 					network='email'
 				/>
-				<p
-					className='
-						uppercase
-						hidden
-						md:inline-flex
-						text-sm
-						text-gray-400
-					'
-				>Contact</p>
+				<p className='
+					uppercase
+					hidden
+					md:inline-flex
+					text-sm
+					text-gray-400
+				'>Contact</p>
 			</div>
 		</header>
 	);
