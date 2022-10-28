@@ -50,12 +50,14 @@ export default function Hero({ }: Props) {
 					src='/Warp9pnt9.png'
 				/>
 			</div>
-			<h1>
-				<span>
-					{text}
-					<Cursor cursorColor='#0F0' />
-				</span>
-			</h1>
+			<div>
+				<h1>
+					<span>
+						{text}
+						<Cursor cursorColor='#0F0' />
+					</span>
+				</h1>
+			</div>
 		</div>
 	);
 };
