@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import { motion } from 'framer-motion';
 
 type Props = {};
 
@@ -20,12 +21,25 @@ export default function Header({}: Props) {
 			'
 		>
 			{/* Social icons */}
-			<div
+			<motion.div
+				animate={{
+					opacity: 1,
+					scale: 1,
+					x: 0,
+				}}
 				className='
 					flex
 					flex-row
 					items-center
 				'
+				initial={{
+					opacity: 0,
+					scale: 0.5,
+					x: -150, // 50 * # SocialIcon TODO: calc dyn in func
+				}}
+				transition={{
+					duration: 1.25,
+				}}
 			>
 				<SocialIcon
 					bgColor='transparent'
@@ -42,10 +56,15 @@ export default function Header({}: Props) {
 					fgColor='grey'
 					bgColor='transparent'
 				/>
-			</div>
+			</motion.div>
 
 			{/* Mail */}
-			<div
+			<motion.div
+				animate={{
+					opacity: 1,
+					scale: 1,
+					x: 0,
+				}}
 				className='
 					cursor-pointer
 					flex
@@ -53,6 +72,14 @@ export default function Header({}: Props) {
 					items-center
 					text-gray-300
 				'
+				initial={{
+					opacity: 0,
+					scale: 0.5,
+					x: 125, // 50 SocialIcon + 75 text TODO: calc dyn in func
+				}}
+				transition={{
+					duration: 1.25,
+				}}
 			>
 				<SocialIcon
 					bgColor='transparent'
@@ -69,7 +96,7 @@ export default function Header({}: Props) {
 						text-gray-400
 					'
 				>Contact</p>
-			</div>
+			</motion.div>
 		</header>
 	);
 };
