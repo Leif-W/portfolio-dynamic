@@ -9,7 +9,11 @@ export default function Home({}: NextPage) {
 			className='
 				bg-[#171717]
 				h-screen
+				overflow-scroll
+				snap-y
+				snap-mandatory
 				text-[#0f0]
+				z-0
 			'
 		>
 			<Head>
@@ -20,7 +24,12 @@ export default function Home({}: NextPage) {
 			<Header />
 
 			{/* Hero */}
-			<section id='hero'>
+			<section
+				className='
+					snap-center
+				'
+				id='hero'
+			>
 				<Hero />
 			</section>
 

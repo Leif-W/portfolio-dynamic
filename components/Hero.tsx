@@ -1,5 +1,6 @@
 import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import BackgroundCircles from './BackgroundCircles';
 
 type Props = {};
 
@@ -16,7 +17,19 @@ export default function Hero({ }: Props) {
 	});
 
 	return (
-		<div>
+		<div
+			className='
+				flex
+				flex-col
+				h-screen
+				items-center
+				justify-center
+				overflow-hidden
+				space-y-8
+				text-center
+			'
+		>
+			<BackgroundCircles />
 			<h1>
 				<span>
 					{text}
