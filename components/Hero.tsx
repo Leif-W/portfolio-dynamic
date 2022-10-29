@@ -53,7 +53,9 @@ export default function Hero({ }: Props) {
 			<div>
 				<h1
 					className='
+						font-semibold
 						lg:text-6xl
+						px-[0.75rem]
 						text-5xl
 					'
 				>
