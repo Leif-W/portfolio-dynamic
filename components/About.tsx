@@ -19,6 +19,17 @@ export default function About({}: Props) {
 				relative
 				text-center
 			'
-		>About</div>
+		>
+			<h3
+				className='
+					absolute
+					text-[#0F0]
+					text-2xl
+					top-24
+					tracking-[1.25em]
+					uppercase
+				'
+			>About</h3>
+		</div>
 	);
 };
