@@ -51,6 +51,15 @@ export default function Hero({ }: Props) {
 				/>
 			</div>
 			<div>
+				<h2
+					className='
+						pb-2
+						text-[#080]
+						text-sm
+						tracking-[0.75rem]
+						uppercase
+					'
+				>General Hacker</h2>
 				<h1
 					className='
 						font-semibold
