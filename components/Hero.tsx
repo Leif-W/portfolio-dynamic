@@ -75,6 +75,7 @@ export default function Hero({}: Props) {
 						font-semibold
 						lg:text-6xl
 						px-[0.75rem]
+						text-[#0F0]
 						text-5xl
 					'
 				>
@@ -83,7 +84,7 @@ export default function Hero({}: Props) {
 							mr-[0.375rem]
 						'
 					>{text}</span>
-					<Cursor	cursorColor='#0F0' />
+					<Cursor	cursorColor='#808' />
 				</h1>
 				<div
 					className='
