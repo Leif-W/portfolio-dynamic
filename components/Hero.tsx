@@ -47,6 +47,11 @@ export default function Hero({ }: Props) {
 					'
 					fill
 					priority
+					sizes='
+						(max-width: 768px) 4rem,
+              			(max-width: 1200px) 6rem,
+              			8rem
+					'
 					src='/Warp9pnt9.png'
 				/>
 			</div>
