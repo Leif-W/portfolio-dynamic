@@ -78,6 +78,30 @@ export default function About({}: Props) {
 					src='/Warp9pnt9.png'
 				/>
 			</motion.div>
+			<div
+				className='
+					md:px-10
+					px-0
+					space-y-10
+				'
+			>
+				{/* Ugly formatting necessary to maintain spaces around and underline of span tag. */}
+				<h4
+					className='
+						text-[#B0B]
+						text-4xl
+						font-semibold
+					'
+				>Here is a
+					<span
+						className='
+							px-2
+							underline
+							decoration-[#0F0]/50
+						'
+					>little</span>
+					background.</h4>
+			</div>
 		</div>
 	);
 };
