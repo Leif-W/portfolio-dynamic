@@ -54,8 +54,8 @@ export default function Hero({ }: Props) {
 				<h1>
 					<span>
 						{text}
-						<Cursor cursorColor='#0F0' />
 					</span>
+					<Cursor	cursorColor='#0F0' />
 				</h1>
 			</div>
 		</div>
