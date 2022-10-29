@@ -53,11 +53,9 @@ export default function About({}: Props) {
 				transition={{
 					duration: 0.75,
 				}}
-				/*
 				viewport={{
 					once: true,
 				}}
-				*/
 				whileInView={{
 					opacity: 1,
 					x: 0,
