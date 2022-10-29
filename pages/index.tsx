@@ -26,7 +26,7 @@ export default function Home({}: NextPage) {
 			{/* Hero */}
 			<section
 				className='
-					snap-center
+					snap-start
 				'
 				id='hero'
 			>
