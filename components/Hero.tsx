@@ -56,7 +56,11 @@ export default function Hero({ }: Props) {
 					src='/Warp9pnt9.png'
 				/>
 			</div>
-			<div>
+			<div
+				className='
+					z-20
+				'
+			>
 				<h2
 					className='
 						pb-2
