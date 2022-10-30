@@ -6,7 +6,19 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
 	return (
-		<article>
+		<article
+			className='
+				flex
+				flex-col
+				flex-shrink-0
+				items-center
+				md:w-[37.5rem]
+				rounded-lg
+				space-y-7
+				w-[31.25rem]
+				xl:w-[56.25rem]
+			'
+		>
 			<motion.div
 				className='
 					h-32
@@ -44,19 +56,51 @@ export default function ExperienceCard({}: Props) {
 					src='/Warp9pnt9.png'
 				/>
 			</motion.div>
-			<div>
+			<div
+				className='
+					md:px-10
+					px-0
+				'
+			>
 				<h4
 					className='
+						font-light
+						text-4xl
 					'
 				>CEO of Company, Inc.</h4>
-				<p>Company, Inc.</p>
-				<p>
+				<p
+					className='
+						font-bold
+						mt-1
+						text-2xl
+					'
+				>Company, Inc.</p>
+				<p
+					className='
+						flex
+						my-2
+						space-x-2
+					'
+				>
 					{/* Tech icon */}
 					{/* Tech icon */}
 					{/* Tech icon */}
 				</p>
-				<p>2002 - 2022</p>
-				<ul>
+				<p
+					className='
+						py-5
+						text-[#080]
+						uppercase
+					'
+				>2002 - 2022</p>
+				<ul
+					className='
+						list-disc
+						ml-5
+						space-y-4
+						text-lg
+					'
+				>
 					<li>Summary points</li>
 					<li>Summary points</li>
 					<li>Summary points</li>
