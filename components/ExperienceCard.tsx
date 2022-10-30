@@ -34,7 +34,7 @@ export default function ExperienceCard({}: Props) {
 					y: -100,
 				}}
 				transition={{ duration: 0.75 }}
-				viewport={{ once: false }}
+				viewport={{ once: true }}
 				whileInView={{
 					opacity: 1,
 					y: 0,
