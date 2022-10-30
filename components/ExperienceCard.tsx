@@ -82,9 +82,93 @@ export default function ExperienceCard({}: Props) {
 						space-x-2
 					'
 				>
-					{/* Tech icon */}
-					{/* Tech icon */}
-					{/* Tech icon */}
+					<div
+						className='
+							h-8
+							md:h-9
+							md:w-9
+							relative
+							w-8
+							xl:h-10
+							xl:w-10
+						'
+					>
+						{/* TODO: Placeholder, fix suppressHydrationWarning later if needed */}
+						<Image
+							alt='icon'
+							className='
+								object-center
+								object-contain
+								rounded-full
+							'
+							fill
+							sizes='
+								(max-width: 768px) 2rem,
+	            	  			(max-width: 1200px) 2.25rem,
+	              				2.5rem
+							'
+							src='/icon-react.svg'
+							suppressHydrationWarning
+						/>
+					</div>
+					<div
+						className='
+							h-8
+							md:h-9
+							md:w-9
+							relative
+							w-8
+							xl:h-10
+							xl:w-10
+						'
+					>
+						{/* TODO: Placeholder, fix suppressHydrationWarning later if needed */}
+						<Image
+							alt='icon'
+							className='
+								object-center
+								object-contain
+								rounded-full
+							'
+							fill
+							sizes='
+								(max-width: 768px) 2rem,
+	            	  			(max-width: 1200px) 2.25rem,
+	              				2.5rem
+							'
+							src='/icon-react.svg'
+							suppressHydrationWarning
+						/>
+					</div>
+					<div
+						className='
+							h-8
+							md:h-9
+							md:w-9
+							relative
+							w-8
+							xl:h-10
+							xl:w-10
+						'
+					>
+						{/* TODO: Placeholder, fix suppressHydrationWarning later if needed */}
+						<Image
+							alt='icon'
+							className='
+								object-center
+								object-contain
+								rounded-full
+							'
+							fill
+							sizes='
+								(max-width: 768px) 2rem,
+	            	  			(max-width: 1200px) 2.25rem,
+	              				2.5rem
+							'
+							src='/icon-react.svg'
+							suppressHydrationWarning
+						/>
+					</div>
 				</p>
 				<p
 					className='
