@@ -18,7 +18,7 @@ export default function Home({}: NextPage) {
 		>
 			<Head>
 				<title>Leif Westerlind&apos;s Dynamic Portfolio</title>
-				</Head>
+			</Head>
 
 			{/* Header */}
 			<Header />
