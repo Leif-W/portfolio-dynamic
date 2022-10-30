@@ -14,6 +14,7 @@ export default function Home({}: NextPage) {
 				overflow-scroll
 				snap-y
 				snap-mandatory
+				text-[#0F0]
 				z-0
 			'
 		>

@@ -75,7 +75,6 @@ export default function Hero({}: Props) {
 						font-semibold
 						lg:text-6xl
 						px-[0.75rem]
-						text-[#0F0]
 						text-5xl
 					'
 				>

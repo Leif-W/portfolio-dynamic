@@ -28,7 +28,6 @@ export default function About({}: Props) {
 			<h3
 				className='
 					absolute
-					text-[#0F0]
 					text-2xl
 					top-24
 					tracking-[1.25em]
@@ -107,7 +106,6 @@ export default function About({}: Props) {
 				{/* TODO: Change Lorem Ipsum text */}
 				<p
 					className='
-						text-[#2F2]
 						text-base
 						text-justify
 					'
