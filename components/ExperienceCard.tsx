@@ -49,13 +49,13 @@ export default function ExperienceCard({}: Props) {
 					className='
 					'
 				>CEO of Company, Inc.</h4>
-				<span>Company, Inc.</span>
-				<span>
+				<p>Company, Inc.</p>
+				<p>
 					{/* Tech icon */}
 					{/* Tech icon */}
 					{/* Tech icon */}
-				</span>
-				<span>2002 - 2022</span>
+				</p>
+				<p>2002 - 2022</p>
 				<ul>
 					<li>Summary points</li>
 					<li>Summary points</li>
