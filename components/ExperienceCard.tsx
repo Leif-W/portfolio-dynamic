@@ -47,12 +47,6 @@ export default function ExperienceCard({}: Props) {
 			<div>
 				<h4
 					className='
-						absolute
-						text-[#0F0]
-						text-2xl
-						top-24
-						tracking-[1.25rem]
-						uppercase
 					'
 				>CEO of Company, Inc.</h4>
 				<span>Company, Inc.</span>
