@@ -43,6 +43,8 @@ export default function ExperienceCard({}: Props) {
 					'
 					src='/Warp9pnt9.png'
 				/>
+			</motion.div>
+			<div>
 				<h4
 					className='
 						absolute
@@ -67,7 +69,7 @@ export default function ExperienceCard({}: Props) {
 					<li>Summary points</li>
 					<li>Summary points</li>
 				</ul>
-			</motion.div>
+			</div>
 		</article>
 	);
 };
