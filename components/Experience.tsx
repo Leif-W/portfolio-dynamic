@@ -34,7 +34,17 @@ export default function Experience({}: Props) {
 					uppercase
 				'
 			>Experience</h3>
-			<div>
+			<div
+				className='
+					flex
+					overflow-x-scroll
+					p-10
+					snap-mandatory
+					snap-x
+					space-x-5
+					w-full
+				'
+			>
 				<ExperienceCard />
 				<ExperienceCard />
 				<ExperienceCard />
